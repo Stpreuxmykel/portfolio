@@ -10,14 +10,21 @@ import Script from "next/script";
 
 const Home = () => {
   useEffect(() => {
-    // Initialize ConveyThis after the component mounts
+    // This will execute after the script is loaded
+    const initConveyThis = () => {
+      if (typeof ConveyThis_Initializer !== "undefined") {
+        ConveyThis_Initializer.init({
+          api_key: "pub_8552e82973d78b180d1434405af61b1a",
+        });
+      } else {
+        console.error("ConveyThis_Initializer not found.");
+      }
+    };
+
+    // Delay until ConveyThis script is available
     const script = document.createElement("script");
     script.src = "//cdn.conveythis.com/javascript/conveythis-initializer.js";
-    script.onload = () => {
-      ConveyThis_Initializer.init({
-        api_key: "pub_8552e82973d78b180d1434405af61b1a",
-      });
-    };
+    script.onload = initConveyThis;
     document.body.appendChild(script);
   }, []);
 
@@ -67,8 +74,20 @@ const Home = () => {
 
       <Stats />
 
-      {/* ConveyThis Code */}
-      <Script src="//cdn.conveythis.com/javascript/conveythis-initializer.js" strategy="lazyOnload" />
+      {/* Lazy-load ConveyThis script */}
+      <Script
+        src="//cdn.conveythis.com/javascript/conveythis-initializer.js"
+        strategy="lazyOnload"
+        onLoad={() => {
+          if (typeof ConveyThis_Initializer !== "undefined") {
+            ConveyThis_Initializer.init({
+              api_key: "pub_8552e82973d78b180d1434405af61b1a",
+            });
+          } else {
+            console.error("ConveyThis_Initializer is not available after script load.");
+          }
+        }}
+      />
     </section>
   );
 };
