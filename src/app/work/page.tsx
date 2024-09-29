@@ -56,7 +56,7 @@ const projects = [
     num: '03',
     category: "Church Website Development",
     title: "Project 3",
-    description: " Mon ami Zamor et moi-même avons conçu et développé un site web moderne et convivial pour une église, dans le but d'améliorer la communication et l'engagement avec la congrégation et la communauté au sens large. Le site est conçu pour refléter les valeurs de l'église tout en offrant un accès facile aux informations importantes. ",
+    description: "My friend Zamor and I designed and developed a modern, user-friendly website for a church, with the goal of improving communication and engagement with the congregation and the broader community. The site is designed to reflect the church's values while providing easy access to important information.",
     
     stack: [
       { name: "HTML 5"},
