@@ -8,7 +8,7 @@ const Admin = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/contact/')
+    axios.get('https://portfolio310.pythonanywhere.com/api/contact/')
       .then(response => setItems(response.data))
       .catch(error => console.error(error))
   }, []);
