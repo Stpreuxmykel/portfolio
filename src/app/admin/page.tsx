@@ -22,6 +22,7 @@ const Admin = () => {
         <table className="table-auto w-full text-left border-collapse border border-gray-300">
           <thead>
             <tr className="bg-gray-500 text-accent">
+              <th className="border border-gray-300 px-4 py-2">ID</th>
               <th className="border border-gray-300 px-4 py-2">Prénom</th>
               <th className="border border-gray-300 px-4 py-2">Nom</th>
               <th className="border border-gray-300 px-4 py-2">Téléphone</th>
@@ -32,6 +33,7 @@ const Admin = () => {
           <tbody>
             {items.map(item => (
               <tr key={item.id} >
+                <td className="border border-gray-300 px-4 py-2">{item.id}</td>
                 <td className="border border-gray-300 px-4 py-2">{item.first_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{item.last_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{item.phone}</td>
