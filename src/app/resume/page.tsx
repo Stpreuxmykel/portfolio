@@ -100,7 +100,7 @@ const experience = {
 
     {
       company: " Dreams Digital Horizons- (DDH) ",
-      positon: "Full stack Developper",
+      positon: "Full stack Developper & Co-Founder",
       duration: "2024 - Present",
     },
   ],
