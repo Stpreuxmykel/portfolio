@@ -127,7 +127,7 @@ const education = {
     {
       institution: " Online Course Platform UDEMY ",
       degree: " Python Developper ",
-      duration: " 2022-2023",
+      duration: " 2021-2022",
     },
     {
       institution: " Online Course Platform UDEMY ",
