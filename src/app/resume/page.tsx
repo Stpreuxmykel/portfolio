@@ -24,6 +24,7 @@ import {
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 import { SiTensorflow , SiPrisma, SiOpencv, SiDrizzle} from "react-icons/si";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 //  const data
 
@@ -218,6 +219,10 @@ const skills = {
     {
       icon: <SiDrizzle />,
       name: "drizzle",
+    },
+     {
+      icon: <GiArtificialIntelligence />,
+      name: "Machin Learning",
     },
     
   ],
