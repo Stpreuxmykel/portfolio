@@ -88,24 +88,6 @@ const projects = [
     live: "",
     github: "",
   },
-  
-  {
-    num: '05',
-    category: "Frontend",
-    title: "Project 5",
-    description: " My Portfolio ",
-    
-    stack: [
-      { name: " Next.js "},
-      { name: "Tailwind.css"},
-      { name: "Python"},
-    ],
-    image: "/work/thumb3.png",
-    link: "",
-    live: "",
-    github: "",
-  },
-
 ]
 
 
