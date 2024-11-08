@@ -83,7 +83,7 @@ const projects = [
       { name: "AI"},
     ],
      
-    image: "/work/espaslink2.png",
+    image: "/work/thumb6.png",
     link: "https://www.espaslink.com/",
     live: "",
     github: "",
