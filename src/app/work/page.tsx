@@ -69,10 +69,30 @@ const projects = [
     live: "",
     github: "",
   },
-  {
+
+   {
     num: '04',
-    category: "Frontend",
+    category: "Espaslink",
     title: "Project 4",
+    description: "EspasLink is a fast and easy-to-use web application that allows property owners and real estate seekers in Haiti to connect, post, and discover houses, land, and commercial spaces—all on a centralized and seamless platform.",
+    
+     stack: [
+      { name: " Next.js "},
+      { name: "Tailwind.css"},
+      { name: "Python"},
+      { name: "AI"},
+    ],
+     
+    image: "/work/espaslink2.png",
+    link: "https://www.espaslink.com/",
+    live: "",
+    github: "",
+  },
+  
+  {
+    num: '05',
+    category: "Frontend",
+    title: "Project 5",
     description: " My Portfolio ",
     
     stack: [
