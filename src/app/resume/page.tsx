@@ -134,6 +134,18 @@ const education = {
       degree: " Laravel  ",
       duration: " 2023",
     },
+     {
+      institution: " Online Course Platform FreeCodeCamp ",
+      degree: " Machin Learning  ",
+      duration: " 2023",
+    },
+
+     {
+      institution: " Online Course Platform Simplilearn ",
+      degree: "Artificial Intelligence-(AI) ",
+      duration: " 2023",
+    },
+    
   ],
 };
 
