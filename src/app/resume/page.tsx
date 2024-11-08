@@ -82,7 +82,7 @@ const experience = {
     },
     {
       company: " CodeCamp",
-      positon: "Teacher",
+      positon: "Teacher & Co-Founder",
       duration: "June 2024 - Present",
     },
 
