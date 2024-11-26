@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
  });
 
 export const metadata: Metadata = {
-  title: "Mykel ST-PREUX PORTFOLIO",
+  title: "Mykel ST-PREUX portfolio",
   description: "Développeur Full Stack Créatif",
 };
 
